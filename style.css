@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 10px;
+}
+
+table {
+    
+    border: 2px solid orange;
+    border-collapse: collapse;
+    font-family: montserrat;
+    margin: 30px auto;
+}
+
+th {
+    border: none;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+td {
+    border: 15px solid black;
+    padding: 15px;
+    width: 150px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+
+table:nth-of-type(1) {
+    background: orange;
+
+}
+
+
+table:nth-of-type(1) th {
+    background: orange;
+    color: black;
+
+}
+
+table:nth-of-type(1) .black {
+    background: rgba(0, 0, 0, 0.267);
+    border: none;
+    color: black;
+}
+
+table:nth-of-type(1) td {
+    background: rgb(62, 51, 161);
+    border: 1px solid orange;
+    color: white;
+}
+
+
